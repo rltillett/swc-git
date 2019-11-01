@@ -45,34 +45,6 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 <h2 id="general">General Information</h2>
 
 {% comment %}
-INTRODUCTION
-
-Edit the general explanatory paragraph below if you want to change
-the pitch.
-{% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/intro.html %}
-{% endif %}
-
-{% comment %}
-AUDIENCE
-
-Explain who your audience is.  (In particular, tell readers if the
-workshop is only open to people from a particular institution.
-{% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
-
-{% comment %}
 DATE
 
 This block displays the date and links to Google Calendar.
@@ -110,20 +82,18 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
+  <strong>Accessibility:</strong> I am committed to making this lesson
   accessible to everybody.
-  The workshop organizers have checked that:
+  I have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
+  If I can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
+  get in touch (using contact details below) and I will
   attempt to provide them.
 </p>
 
