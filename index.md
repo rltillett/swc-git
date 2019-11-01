@@ -45,19 +45,6 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 <h2 id="general">General Information</h2>
 
 {% comment %}
-DATE
-
-This block displays the date and links to Google Calendar.
-{% endcomment %}
-{% if page.humandate %}
-<p id="when">
-  <strong>When:</strong>
-  {{page.humandate}}.
-  {% include workshop_calendar.html %}
-</p>
-{% endif %}
-
-{% comment %}
 SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
